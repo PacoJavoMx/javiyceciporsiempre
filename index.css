@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: center;
+    color: #2E7D32;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 3px solid #D4AF37;
+}
+h1, h2 {
+    color: #2E7D32;
+}
+.countdown {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #D4AF37;
+}
+.details {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.footer {
+    margin-top: 20px;
+    font-style: italic;
+    color: #2E7D32;
+}
