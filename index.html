@@ -4,18 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invitación de Boda</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <nav class="navbar">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#novios">Novios</a></li>
+            <li><a href="#evento">Evento</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
+    </nav>
+    
+    <section id="inicio" class="container">
         <h1>¡Nos Casamos!</h1>
         <p class="details">Con gran alegría, los invitamos a celebrar nuestra boda</p>
-        <h2>Javier & Cecilia</h2>
-        <p class="details">Fecha: </p>
-        <p class="details">Lugar: </p>
+    </section>
+    
+    <section id="novios" class="container">
+        <h2>Lucía & Daniel</h2>
+    </section>
+    
+    <section id="evento" class="container">
+        <p class="details">Fecha: 20 de Diciembre de 2025</p>
         <p class="countdown" id="countdown"></p>
-        <p class="footer">¡Esperamos contar con su presencia en este día tan especial!</p>
-    </div>
+    </section>
+    
+    <section id="ubicacion" class="container">
+        <p class="details">Lugar: Jardines del Sol, Ciudad de México</p>
+    </section>
+    
+    <footer class="footer">
+        <p>¡Esperamos contar con su presencia en este día tan especial!</p>
+    </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>
